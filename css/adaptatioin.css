@@ -1,0 +1,642 @@
+@media (max-width: 1280px){
+    *{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Tagline_p{
+        margin-left: 0;
+    }
+
+    .logo{
+        grid-column: 3;
+    }
+
+    .navigation{
+        grid-column: 13/26;
+    }
+
+    .Nav_p{
+        margin-right: 10px;
+    }
+
+    .ellipse{
+        margin-right: 10px;
+    }
+
+    .form_inp{
+        margin: 0;
+    }
+
+    .submit_form{
+        margin: 0px;
+    }
+
+    .header_phone{
+        grid-column: 88/100;
+    }
+
+    .header_mail{
+        grid-column: 102/112;
+    }
+
+    .header_facebook{
+        grid-column: 118/123;
+    }
+
+    .FreeConsultationImg{
+        background-image: url(/img/Legs.png);
+        height: 700px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+    }
+
+}
+
+@media (max-width: 380px){
+    
+
+    .header_inf{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .header_phone{
+        width: 280px;
+    }
+    
+    .header_mail{
+        margin-left: 30px;
+        width: 300px;
+    }
+    
+    .header_facebook{
+        width: 280px;
+        margin-right: -30px;
+    }
+    
+    .header_inf_p{
+        font-size: 11px;
+    }
+
+
+    .header_nav{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 10px);
+        grid-template-rows: repeat(18, 10px);
+    }
+    
+    .logo{
+        display: grid;
+        grid-template-columns: repeat(15, 20px);
+        grid-template-rows: repeat(9, 10px);
+        grid-column: 8;
+    }
+    
+    .logotipe{
+        grid-row: 4;
+    }
+    
+    .Buisness_p{
+        font-size: 37px;
+        grid-row: 4;
+        grid-column: 5;
+    }
+    
+    .Tagline_p{
+        font-size: 15px;
+        grid-row: 6;
+        grid-column: 5/20;
+    }
+    
+    .navigation{
+        max-width: 570px;
+        height: 36px;
+        grid-column: 1/40;
+        grid-row: 13;
+    }
+    
+    .Nav_p{
+        font-size: 13px;
+    }
+
+    .Free_cons{
+        width: 60px;
+        height: 36px;
+        font-size: 9px;
+    }
+
+    .FreeConsultationImg{
+        height: 200px;
+        background-size: cover;
+    }
+    
+    .WeProviding{
+        font-size: 30px;
+    }
+    
+    .Social_Media{
+        font-size: 10px;
+        margin-top: -30px;
+    }
+    
+    .Free_cons_2{
+        width: 130px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .about_us{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+    }
+    
+    .about_us_p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .We_Are{
+        font-size: 14px;
+        margin-top: -20px;
+    }
+    
+    .about_us_square{
+        background-color: rgb(66, 66, 66);
+        width: 50px;
+        height: 2px;
+        margin-top: -5px;
+    }
+    
+    .about_us_infboxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .infbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        text-align: center;
+    }
+    
+    .infbox_img{
+        height: 70px;
+        width: 60px;
+    }
+    
+    .infbox_article{
+        font-size: 14px;
+        font-family: "HelveticaNeue";
+        color: rgb(66, 66, 66);
+        font-weight: bold;   
+    }
+    
+    .infbox_desc{
+        font-size: 10px;
+        font-family: "OpenSans";
+        color: rgb(92, 92, 92);
+        margin-top: -12px;
+    }
+
+    .Our_Approch{
+        width: 100%;
+        height: 1511px;
+        background-color: rgb(243, 243, 243);
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Our_Approch_p{
+        margin-top: 50px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .Check_Our_Approch_p{
+        font-size: 14px;
+        margin-top: -20px;
+    }
+    
+    .our_approch_square{
+        background-color: rgb(66, 66, 66);
+        width: 50px;
+        height: 2px;
+    }
+
+    .Our_Approch_block{
+        height: 250px;
+        width: 97%;
+        margin-top: 200px;
+        display: grid;
+        grid-template-columns: repeat(9, 50px);
+        grid-template-rows: repeat(10, 50px);
+    }
+    
+    .photo{
+        background-image: url(/img/photo21.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 70px;
+    }
+    
+    .step{
+        width: 160px;
+        height: 100px;
+        grid-column: 3;
+        grid-row: 5;
+        margin-left: 10px;
+    }
+    
+    .step_num{
+        font-size: 50px;
+    }
+    
+    .step_under_num{
+        font-size: 20px;
+    }
+    
+    .step_text{
+        width: 370px;
+        grid-column: 1/4;
+        grid-row: 7;
+    }
+    
+    .step_art1{
+        font-size: 15px;
+    }
+    
+    .step_desc1{
+        font-size: 10px;
+    }
+    
+    .rock{
+        background-image: url(/img/rock21.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .step2{
+        width: 160px;
+        height: 100px;
+        grid-column: 3;
+        grid-row: 5;
+        margin-left: 10px;
+    }
+    
+    .step_text2{
+        width: 360px;
+        height: auto;
+        grid-column: 1/4;
+        grid-row: 7;
+    }
+    
+    .step_art2{
+        font-size: 15px;
+    }
+    
+    .step_desc2{
+        font-size: 10px;
+    }
+    
+    .table{
+        background-image: url(/img/table21.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .phone{
+        background-image: url(/img/phone21.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .Our_work{
+        margin-top: 500px;
+        height: 500px;
+    }
+    
+    .Our_work_p{
+        font-size: 20px;
+        margin-top: -30px;
+    }
+    
+    .Features{
+        font-size: 14px;
+        margin-top: -20px;
+    }
+    
+    .Our_work_square{
+        background-color: rgb(255, 255, 255);
+        width: 50px;
+        height: 2px;
+    }
+    
+    .Projects_1{
+        width: 100%;
+        height: 95px;
+    }
+    
+    .Projects_2{
+        width: 100%;
+        height: 95px;
+    }
+    
+    .red_rect{
+        width: 95px;
+        height: 95px;
+    }
+    
+    .red_rect_text{
+        margin-top: 15px;
+        height: 95px;
+    }
+    
+    .project_name{
+        font-size: 12px;
+        margin-top: -10px;
+    }
+    
+    .Facebook_marketing{
+        font-size: 8px;
+        margin-top: -10px;
+    }
+    
+    .our_work_element{
+        width: 95px;
+        height: 95px;
+    }
+
+    .plane{
+        margin-top: 20px;
+    }
+    
+    .Feedback_off{
+        height: 1000px;
+    }
+    
+    .Get_feedback{
+        font-size: 26px;
+        margin-top: 0px;
+        text-align: center;
+    }
+    
+    .Enter_now{
+        font-size: 16px;
+        margin-top: -20px;
+    }
+    
+    .check_mark{
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    #form_btn{
+        transform: scale(0);
+        opacity: 0;
+    }
+    
+    .form{
+        width: 100%;
+        height: 500px;
+        grid-template-columns: repeat(auto-fill, 30px);
+        grid-template-rows: repeat(auto-fill, 30px);
+        margin-top: -70px;
+        transition: ease-in, 0.5s;
+    }
+    
+    .form_off{
+        transform: scaleY(1);
+        transition: ease-in, 0.5s;
+    }
+    
+    .close_btn{
+        transform: scale(0);
+        opacity: 0;
+    }
+    
+    .close_btn:hover{
+        transform: scale(1.1);
+        transition: ease-out, 0.5s;
+    }
+    
+    .close_btn:active{
+        transform: scale(0.9);
+        transition: ease-out, 0.1s;
+    }
+    
+    .deg45_square{
+        transform: scale(0);
+        opacity: 0;
+    }
+    
+    .form_txt{
+        font-size: 13px;
+        grid-row: 2;
+        grid-column: 3/23;
+    }
+    
+    .form_inp{
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(18, 135, 191);
+        border-radius: 3px;
+        background-color: rgba(241, 241, 241, 0);
+        grid-column: 3/23;
+        font-size: 15px;
+        font-family: "Helvetica";
+        padding-left: 20px;
+    }
+    
+    .form_inp::placeholder{
+        color: rgb(176, 176, 176);
+    }
+    
+    .inp1{
+        grid-row: 6/8;
+    }
+    
+    .inp2{
+        grid-row: 9/11;
+    }
+    
+    .inp3{
+        grid-row: 12/14;
+    }
+    
+    .submit_form{
+        border-radius: 10px;
+        background-color: rgb(222, 43, 36);
+        border-style: solid;
+        border-color: white;
+        grid-row: 15/17;
+        grid-column: 4/12;
+        font-size: 20px;
+        font-family: "HelveticaNeue";
+        color: rgb(255, 255, 255);
+        font-weight: bold;   
+        transition: ease-in-out, 0.5s;
+        cursor: pointer;
+    }
+    
+    .submit_form:hover{
+        background-color: rgb(163, 25, 20);
+        transform: scale(1.1);
+        transition: ease-in-out, 0.5s;
+    }
+    
+    .submit_form:active{
+        background-color: rgb(136, 21, 17);
+        transform: scale(1);
+        transition: ease-in-out, 0.1s;
+    }
+    
+    .form_submitted{
+        position: fixed;
+        height: 100px;
+        width: 300px;
+        background-color: white;
+        bottom: 10px;
+        right: 10px;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 10px);
+        grid-template-rows: repeat(auto-fill, 10px);
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+        transition: ease-in, 0.3s;
+    }
+    
+    .form_submitted_off{
+        opacity: 0;
+        transition: ease-in, 0.3s;
+    }
+    
+    .form_submitted_p{
+        font-size: 30px;
+        font-family: "HelveticaNeue";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-align: center;
+        grid-row: 3/9;
+        grid-column: 6/26;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .form_submitted_close_btn{
+        color: black;
+        cursor: pointer;
+        grid-row: 1/3;
+        grid-column: 27/30;
+        padding: 0;
+        margin: 0;
+        border: none;
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 30px;
+    }
+
+    .Get_in_touch{
+        background-color: rgb(42, 42, 42);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Get_in_touch_p{
+        font-size: 20px;
+        font-family: "HelveticaNeue";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-top: 100px;
+    }
+    
+    .Social_media{
+        width: 299px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .Social_media_element{
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(81, 81, 81);
+        background-color: rgba(0,0,0,0);
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Social_media_element:hover{
+        border-color: rgb(222, 43, 36);
+    }
+    
+    .subscribe{
+        font-size: 14px;
+        font-family: "OpenSans";
+        color: rgb(206, 206, 206);      
+        text-align: center;
+    }
+    
+    .email_inp{
+        background-color: rgb(81, 81, 81);
+        width: 90%;
+        height: 54px;
+        border: none;
+        padding-left: 20px;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .email_inp::placeholder{
+        color: rgb(176, 176, 176);
+    }
+    
+    .subscribe_btn{
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(81, 81, 81);
+        border-radius: 1px;
+        background-color: rgba(243, 243, 243, 0);
+        width: 153px;
+        height: 53px;
+        font-size: 17px;
+        font-family: "Helvetica";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .subscribe_btn:hover{
+        border-color: rgb(222, 43, 36);
+        cursor: pointer;
+    }
+
+}
